@@ -27,7 +27,7 @@ def file_command(file):
             if path is not None and not os.path.exists(path_stripped):
                 os.mkdir(path_stripped)                    
             if url is not None:
-                    url_command(url=url, only_audio=False, only_video=False, output_path=path_stripped)    
+                url_command(url=url, only_audio=False, only_video=False, output_path=path_stripped)    
         file.close()
     except IOError as err:
         print(str(err))
