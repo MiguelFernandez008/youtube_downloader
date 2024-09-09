@@ -18,8 +18,11 @@ def help_command():
 def file_command(file):
     try:
         file = open(file=file, mode='rt')
-        for line in file:
+        for index, line in enumerate(file):
             values = line.split(',')
+            if len(values) < 2:
+                print('Line {} has not correct format'.format(index + 1))
+                continue
             url = values[0] or None
             parent_path = './'
             path = parent_path + values[1] or parent_path
