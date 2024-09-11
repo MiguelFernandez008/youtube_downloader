@@ -1,5 +1,5 @@
-# youtube_downloader
- A command line script to download youtube videos
+# Youtube Downloader
+ A command line script to download Youtube videos
 
 ## List of available commands
 
@@ -9,17 +9,17 @@ Displays help
 python main.py -h
 ```
 ### -u
-Download the youtube url passed as the next argument.
+Download the Youtube url passed as the next argument.
 ```
 python main.py -u https://youtube.com/watch?v=12345
 ```
 ### -a
-Download the youtube url passed as the next argument. Audio only mode.
+Download the Youtube url passed as the next argument. Audio only mode.
 ```
 python main.py -a https://youtube.com/watch?v=12345
 ```
 ### -v.
-Download the youtube url passed as the next argument. Video only mode.
+Download the Youtube url passed as the next argument. Video only mode.
 ```
 python main.py -v https://youtube.com/watch?v=12345
 ```
