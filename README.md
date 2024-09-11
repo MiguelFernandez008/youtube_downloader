@@ -1,5 +1,5 @@
 # Youtube Downloader
- A command line script to download Youtube videos
+ A command line script to download Youtube videos.
 
 ## List of available commands
 
