@@ -1,6 +1,9 @@
 # Youtube Downloader
  A command line script to download Youtube videos.
 
+## Script link
+[main.py](main.py)
+
 ## List of available commands
 
 ### -h
