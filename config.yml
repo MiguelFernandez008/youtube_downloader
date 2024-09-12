@@ -1,5 +1,4 @@
 title: Youtube downloader site
 description: A command line script to download Youtube videos.
 show_downloads: true
-google_analytics:
 theme: jekyll-theme-cayman
