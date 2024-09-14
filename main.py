@@ -13,7 +13,7 @@ options = "hu:a:v:f:"
 long_options = []
 
 # Config
-parent_path = './downloads'
+parent_path = './downloads/'
 file_extension = 'mp4'
 help_command_name = '-h'
 url_command_name = '-u'
